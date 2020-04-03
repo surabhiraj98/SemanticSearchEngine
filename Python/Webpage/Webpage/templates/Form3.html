@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Wingardium Leviosa </title>
+<link rel= "stylesheet" type="text/css" href="sys1.css">
+</head>
+
+<body>
+<div class="header">
+<form action="/cgi-bin/main.py" method="post">
+<h1> Wingardium Leviosa </h1>
+<div class = "form-box">
+<input class = "search-field skills" name="search" type="text" placeholder="Search the Web"/>
+<input type="submit" value="Submit">
+</div>
+<?PHP
+echo shell_exec("python main.py 'parameter1'")
+?>
+</form>
+</div>
+</body>
+</html>

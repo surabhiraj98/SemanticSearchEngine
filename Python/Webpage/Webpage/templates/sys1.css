@@ -1,0 +1,58 @@
+body{
+margin: 0;
+padding: 0;
+background:url('Search.jpg');
+}
+
+.header{
+height: 100vh;
+background-image:  linear-
+gradient(rgba(0,0,0,0,7),rgba(0,0,0,0,7));
+background-size:cover;
+background-position: center;
+display:flex;
+justify-content: center;
+align-items:center;
+font-family: sans-serif;
+}
+
+h1{
+text-align: center;
+color: #f05b23;
+margin-up:30px;
+margin-bottom: 50px;
+font-size: 45px;
+letter-spacing: 2px;
+}
+
+span{
+color:#f44336;
+}
+
+.search-field{
+height: 30px;
+padding:10px
+}
+
+.skills{
+width:700px;
+}
+
+
+.search-btn{
+height:30px;
+width:150;
+background:#000000;
+border:none;
+color:#fff;
+}
+
+.search-btn:hover{
+background: #696969;
+cursor:pointer;
+}
+
+.form-box{
+background: rgba(255,255,255,0.5);
+padding: 20px 40px;
+}
